@@ -5,6 +5,7 @@ export default defineConfig({
   server: {
     host: true,
   },
+  base: "/xpath-lab/",
   plugins: [
     vue({
       template: {
